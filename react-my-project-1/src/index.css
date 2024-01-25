@@ -1,0 +1,67 @@
+body{
+  background-color: Black;
+  color: white;
+  text-align: center;
+}
+
+.add-button{
+  background-color: green;
+  border: none;
+  padding: 3px 6px;
+  margin: 3px;
+  border-radius: 4px;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 2px;
+}
+
+.up-button{
+  background-color: rgb(0, 162, 255);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 2px;
+}
+
+.project-container{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+ol {
+  padding: 0;
+}
+
+ol li{
+  background-color: white;
+  color: black;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-text {
+  flex-grow: 1; /* Allow the text to grow and take up the available space */
+}
+
+.down-button {
+  background-color: rgb(0, 162, 255);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 2px;
+}
+
